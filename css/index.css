@@ -1,0 +1,260 @@
+@charset 'UTF-8';
+/*清除默认样式及设置默认样式*/
+body,ul,h1,h2,h3,p,form{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: "Microsoft YaHei","微软雅黑",sans-serif;
+	font-size: 12px;
+	color: #272727;
+	background: #fff;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #272727;
+}
+a img{
+	border: none;
+}
+img{
+	display: block;
+}
+/*公共宽度*/
+.comWidth{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*清除浮动*/
+.clearfix:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.notext{
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*头部样式*/
+.header{
+	border-top: 4px solid #09395a;
+	padding-top:10px;
+	padding-bottom: 7px;
+}
+.header h1 {
+	float: left;
+}
+.header h1 a  img{
+	display: block;
+	width:423px;
+	height: 80px;
+}
+.header .links,
+.header .tel {
+	float: right;
+}
+.header .links{
+	margin-top: 2px;
+}
+.header .links a{
+	margin: 0 12px;
+	line-height: 22px;
+}
+.header .links .active{
+	color: #09395a;
+}
+.header .linkss .qqtalk{
+	margin-right: 0;
+	margin-left: 8px;
+}
+.header .links img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.header .tel{
+	clear: right;
+	margin-top: 19px;
+	width: 208px;
+	height:25px;
+}
+/*导航样式*/
+.nav{
+	height: 52px;
+	background:#4D4C4C;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.nav li .active,
+.nav li a:hover{
+	background: url('../images/nav_active_bg.png');
+}
+/*广告图样式*/
+.banner{
+	margin-bottom: 6px;
+}
+.banner img{
+	margin: 0 auto;
+	width: 100%;
+}
+/*内容样式开始*/
+.mt_left,
+.mb_left{
+	float:left;
+	width: 1140px;
+}
+.main_header{
+		text-align: right;
+		line-height: 40px;
+}
+.main_header h1{
+	float: left;
+	color: #09395a;
+	font-weight: normal;
+}
+.hot_cars{
+	margin-right: -31px;
+}
+.hot_car{
+	float: left;
+	text-align: center;
+	position: relative;
+	margin-right: 31px;
+}
+.hot_cars .hot_car{
+	float: left;
+	margin-right: 10px;
+	width: 251px;
+	height: 100px;
+}
+.hot_cars .hot_car_1{
+	float: left;
+	width:750px;
+}
+.hot_car_1 a{
+	font-size: 14px;
+}
+.hot_car::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 39px;
+	height: 43px;
+}
+.hot_car .info{
+	margin-top: 15px;
+}
+.mt_right,
+.mb_right{
+	float: right;
+	width: 305px;
+}
+.process{
+	margin-top: 20px;
+}
+.offers{
+	margin-right: -30px;
+	margin-bottom: -8px;
+}
+.offers .offer{
+	text-align: center;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 13px;
+}
+.offers .offer .info{
+	line-height: 28px;
+}
+.offers .small{
+	width: 184px;
+}
+.mb_right ul{
+	padding-bottom: -20px;
+}
+.mb_right li{
+	line-height: 30px;
+	padding-left: 16px;
+	background: url('../images/cs_item_icon.png') no-repeat 2px;
+}
+.hot_links{
+	width: 1140px;
+	float: left;
+}
+.hot_links .links{
+	margin-left: -15px;
+}
+.hot_links .links a{
+	padding: 0 15px;
+}
+/*底部样式开始*/
+.footer{
+	margin-top: 16px;
+	padding-top: 15px;
+	background: #4D4C4C;
+	color: #fff;
+}
+.gwidth{
+	width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer a{
+	color: #fff;
+}
+.footer .links{
+	float: left;
+	width: 175px;
+}
+.footer .links h2{
+	font-size: 16px;
+	line-height: 26px;
+}
+.footer .links li{
+	line-height: 30px;
+}
+.footer .long{
+	width: 306px;
+}
+.footer .ma{
+	width: 100px;
+}
+.copyright{
+	margin-top: 22px;
+	margin-bottom: 11px;
+	padding-bottom: 5px;
+	border-top: 1px solid #B3B3B3;
+	border-bottom: 1px dashed #F08D18;
+	text-align: right;
+	line-height: 58px;
+}
+.copyright address{
+	float: left;
+	font-style: normal;
+}
+.copyright .address a{
+	margin-left: 43px;
+}
+.copyright .info{
+	margin-right: -12px;
+}
+.copyright .info a{
+	margin: 0 12px;
+}
+.friendly_links{
+	line-height: 46px;
+}
